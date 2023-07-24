@@ -1,0 +1,16 @@
+{
+  "name": "swiftbuy",
+  "version": "1.0.0",
+  "description": "Swift Buy is an ecommerce website",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index --ignore client --ignore admin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aliturabnaqvi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
